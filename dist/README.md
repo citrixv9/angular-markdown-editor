@@ -1,7 +1,8 @@
 # Angular-Markdown-Editor
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
-[![npm version](https://badge.fury.io/js/angular-markdown-editor.svg)](https://badge.fury.io/js/angular-markdown-editor.svg)
+[![npm version](https://badge.fury.io/js/angular-markdown-editor.svg)](//npmjs.com/package/angular-markdown-editor)
+[![NPM downloads](https://img.shields.io/npm/dt/angular-markdown-editor.svg)](https://npmjs.org/package/angular-markdown-editor)
 
 In this package we will use a few libraries and tools to make a more convenient "all in one" WYSIWYG Markdown Editor with preview. All of that with a simple Angular Component. This can be useful for online documentation and many other reasons (docs, blog, ...).
 
@@ -10,7 +11,7 @@ If you still have AngularJS project, you can still get the older version `1.1.5`
 
 ### Dependencies
 Here is the list of dependencies, which are required
-- [Bootstrap-Markdown](http://www.codingdrama.com/bootstrap-markdown/) (editor) itself
+- [Bootstrap-Markdown](http://www.taufanaditya.com/bootstrap-markdown/) (editor) itself
 - [jQuery](http://jquery.com/) _(required for Bootstrap-Markdown editor)_
 - [Bootstrap 3.x](https://getbootstrap.com/docs/3.3/).
    - If anyone needs `Bootstrap 4` support and has time to add the necessary code, [PR](https://github.com/ghiscoding/angular-markdown-editor/pulls) (Pull Request) are certainly welcome.
@@ -19,7 +20,7 @@ Here is the list of dependencies, which are required
 It's a "nice to have" but not a deep dependencies, which is the [ngx-markdown](https://github.com/jfcere/ngx-markdown) lib. It is used in the demo of this lib, but technically you could plug any other lib you wish for dealing with the markdown preview.
 
 ### Demo page
-- [Bootstrap 3 demo](https://ghiscoding.github.io/angular-markdown-editor) / [examples repo](https://github.com/ghiscoding/angular-markdown-editor/tree/master/src/app/examples)
+- [Bootstrap 3 demo](https://ghiscoding.github.io/angular-markdown-editor) / [examples repo](https://github.com/ghiscoding/angular-markdown-editor-demo)
 
 
 ## Installation

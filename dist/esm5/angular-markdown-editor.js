@@ -9,7 +9,7 @@ var GlobalEditorOptions = {
     enableDropDataUri: false,
     footer: '',
     height: 'inherit',
-    hiddenButtons: [],
+    hiddenButtons: ['cmdQuote'],
     hideable: false,
     iconlibrary: 'glyph',
     initialstate: 'editor',
