@@ -1,0 +1,39 @@
+<div class="row">
+    <div class="col-md-6">
+        <h2>Reactive Dynamic Form - Demo</h2>
+    </div>
+</div>
+<hr/>
+
+<form [formGroup]="dynamicForm">
+    <div class="form-group">
+        <label for="field1Id">Field 1</label>
+        <input type="text" id="field1Id" formControlName="field1">
+    </div>
+    <div class="form-group">
+        <label for="field2Id">Field 2</label>
+        <input type="text" id="field2Id" formControlName="field2">
+    </div>
+    <div class="form-group">
+        <button (click)="addNote()">Add note (markdown based)</button>
+    </div>
+    <div formArrayName="notes">
+        <div *ngFor="let item of notes.controls; let i = index;">
+            <div class="container" [formGroupName]="i">
+                <angular-markdown-editor
+                    [textareaId]="i"
+                    [options]="editorOptions"
+                    rows="2"
+                    formControlName="body"
+                >
+                </angular-markdown-editor>
+            </div>
+        </div>
+    </div>
+</form>
+
+<hr/>
+
+<pre class="code">
+{{this.dynamicForm.value| json}}
+</pre>

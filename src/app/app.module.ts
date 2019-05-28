@@ -11,11 +11,13 @@ import { AppComponent } from './app.component';
 import { AngularMarkdownEditorModule } from '../lib/angular-markdown-editor/angular-markdown-editor.module';
 import { ReactiveComponent } from './reactive/reactive.component';
 import { TemplateComponent } from './template/template.component';
+import {ReactiveDynamicComponent} from './reactive-dynamic/reactive-dynamic.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ReactiveComponent,
+    ReactiveDynamicComponent,
     TemplateComponent
   ],
   imports: [
