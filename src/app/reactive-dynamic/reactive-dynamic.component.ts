@@ -31,6 +31,9 @@ export class ReactiveDynamicComponent implements OnInit {
     };
 
     this.buildForm();
+    for(let i = 0; i < 3; i++) {
+      this.addNote();
+    }
   }
 
 

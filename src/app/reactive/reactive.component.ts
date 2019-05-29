@@ -25,12 +25,9 @@ export class ReactiveComponent implements OnInit {
       autofocus: false,
       iconlibrary: 'fa',
       savable: false,
-      hiddenButtons: ['cmdImage', 'cmdPreview', 'cmdTable', 'cmdQuote', 'cmdCode', 'cmdUrl'],
+      hiddenButtons: ['cmdImage', 'cmdTable', 'cmdQuote', 'cmdCode', 'cmdUrl'],
       onFullscreenExit: (e) => this.hidePreview(e),
-      // onShow: (e) => this.bsEditorInstance = e,
-      onShow: (e: EditorInstance) => {
-        e.hideButtons('cmdBold');
-      },
+      onShow: (e) => this.bsEditorInstance = e,
       parser: (val) => this.parse(val)
     };
 

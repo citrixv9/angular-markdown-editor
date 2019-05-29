@@ -7,7 +7,7 @@ export const GlobalEditorOptions: EditorOption = {
   enableDropDataUri: false,
   footer: '',
   height: 'inherit',
-  hiddenButtons: ['cmdQuote'],
+  hiddenButtons: ['cmdImage', 'cmdPreview', 'cmdTable', 'cmdQuote', 'cmdCode', 'cmdUrl'],
   hideable: false,
   iconlibrary: 'glyph',
   initialstate: 'editor',
